@@ -1,0 +1,305 @@
+/* FONTS START ------------------------------------*/
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/ROCK.TTF);
+}
+/* FONTS END ------------------------------------*/
+
+/* GLOBAL CSS START ------------------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+}
+.left_right_10{
+    padding: 0px 10px;
+}
+/* GLOBAL CSS END ------------------------------------*/
+
+/*Banner CSS START------------------------------------*/
+.h_top{
+    background-color: #C35322;
+    font-size: 16px;
+    padding: 0px 0;
+}
+.h_top p{
+    padding: 5px 0px;
+    color: white;
+}
+.h_top a{
+    color: #FFD54D;
+    text-decoration: none;
+}
+.Banner {
+    background-image: url(../img/hbg.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Banner .banner_opacity {
+    padding: 40px 0px 100px 0px;
+    background-image: linear-gradient(118deg, #ffffff 0%, #FFFFFF21 79%);
+    margin-top: -17px;
+}
+.Banner_left{
+    display: flex;
+}
+.Banner_left h1 {
+    font-size: 43px;
+    color: #333333;
+}
+.Banner_right{
+    display: flex;
+}
+.Banner_right_total {
+    width: 240px;
+}
+.Banner_right_part1 {
+    background: black;
+    color: white;
+    padding: 30px 20px;
+}
+.Banner_right_part2 {
+    width: 280px;
+    height: 100px;
+    background-color: #D4B78C;
+    margin-top: -131px;
+    margin-left: -40px;
+}
+/*Banner CSS END------------------------------------*/
+
+/* SERVICE_FINDER CSS START ------------------------------------*/
+.service_finder_heading h2{
+    font-size: 30px;
+    color: #B4BE5D;
+}
+.service_finder_bottom p{
+    font-size: 14px;
+    color: #a45248;
+}
+.service_finder_img img {
+    width: 100%;
+}
+/* SERVICE_FINDER CSS END ------------------------------------*/
+
+/* COUNTRY_VOICE CSS START ------------------------------------*/
+.country_voice_x1 {
+    z-index: 1 !important;
+    position: relative;
+    padding-left: 40px;
+}
+.country_voice_x1 h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    color: #788129;
+    font-weight: 600;
+}
+.country_voice_x1 p{
+    font-size: 16px;
+}
+.country_voice_x2_box {
+    padding: 10px;
+}
+.country_voice_x2_box_wrapper{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #E9E9E9;
+    box-shadow: 3px 3px 25px 0 rgba(0,0,0,.1);
+}
+.country_voice_x2_box_wrapper h4 {
+    font-size: 22px;
+    color: #030303;
+    padding: 0px;
+}
+.country_voice_shape_x1 {
+    height: 250px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    margin-top: -266px;
+}
+/* COUNTRY_VOICE CSS END ------------------------------------*/
+
+/* GLAD CSS START------------------------------------*/
+.glad{
+    background-image: url(../img/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.glad_overlay {
+    background-image: linear-gradient(118deg, #000000b3 0%, #0000000d 79%);
+}
+.glad_x1_1st {
+    padding-right: 55px !important;
+}
+.glad_x1_1st h6{
+    font-style: 13px;
+    color: #b13e17;
+}
+.glad_x1_1st h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.glad_x1_1st p{
+    font-size: 18px;
+}
+.glad_x1_1st a {
+    color: #b13e17;
+    text-decoration: none;
+}
+.glad_x1_1st a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.glad_x2_box_wrapper {
+    background-color: #83836B;
+    padding: 15px;
+}
+.glad_x2_box_wrapper:hover{
+    background-color: #B7675B;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.glad_x2_box_wrapper p {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+}
+.glad_x2_box_wrapper> .icon_plus i {
+    font-size: 30px;
+    color: #fff;
+}
+/* GLAD CSS END ------------------------------------*/
+
+/* Field_Notes CSS START ------------------------------------*/
+.field_notes_intro h2 {
+    font-weight: bold;
+}
+.field_notes_tstmnl_wraper {
+    border: 1px solid #ededed;
+    box-shadow: 3px 3px 25px 0 rgba(0,0,0,.1);
+    padding: 20px 10px 40px 33px;
+}
+.field_notes_tstmnl_x1 i {
+    font-size: 65px;
+    color: #FFB934;
+}
+.field_notes_tstmnl_x2 img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.field_notes_tstmnl_x2 h2 {
+    font-size: 22px;
+}
+.field_notes_tstmnl_x2 p {
+    font-size: 15px;
+}
+/* FieExploreld_Notes CSS END ------------------------------------*/
+
+/* Explore CSS START ------------------------------------*/
+.Explore_content_box {
+    border: 1px solid transparent;
+    background: #fff;
+}
+.Explore_content_box:hover {
+    border: 1px solid #ededed;
+    box-shadow: 3px 3px 25px 0 rgba(0,0,0,.1);
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.Explore_title h2{
+    color: #72a856;
+    font-size: 36px;
+    font-weight: 00;
+}
+.Explore_content p{
+    visibility: hidden;
+}
+.Explore_content_box:hover p{
+    visibility: visible;
+    transition: all ease .5s;
+}
+/* NAME CSS END ------------------------------------*/
+
+/* Council CSS START ------------------------------------*/
+.council_top h2 {
+    font-size: 45px;
+    margin-top: -135px;
+    padding-bottom: 35px;
+    width: 95%;
+}
+.council_bottom_content i {
+    color: #AAB874;
+    font-size: 40px;
+}
+.council_bottom_content a{
+    color: #AAB874;
+    text-decoration: none;
+}
+.council_bottom_content a:hover{
+    text-decoration: underline;
+}
+/* Council CSS END ------------------------------------*/
+
+/* About SETUP START ------------------------------------*/
+.about_head h2{
+    font-size: 81px;
+    color: #D5D5D5;
+}
+.about_body{
+    margin-top: -45px;
+}
+/* About SETUP END ------------------------------------*/
+
+/* Footer SETUP START ------------------------------------*/
+footer{
+    background-color: #2F3744;
+}
+.foot_content h2{
+    color: #fff;
+}
+.foot_content ul {
+    padding-left: 10px;
+    margin: 0;
+}
+.foot_content ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none !important;
+    line-height: 30px;
+}
+.foot_content ul li a:hover {
+    color: #898F98;
+    font-weight: 600;
+}
+.border_line{
+    width: 200px;
+    height: 2px;
+    background-color: #3E454F;
+}
+.foot_content_icon ul li {
+    list-style: none;
+    display: inline-flex;
+    width: 43px;
+    height: 43px;
+    padding: 9px;
+    background: #fff;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    margin: 3px;
+}
+.foot_content_icon ul li:hover{
+    background-color: #D5D5D5;
+}
+.foot_content_icon ul li a{
+    font-size: 22px;
+}
+.foot_content_icon ul li a i {
+    margin: 5px;
+    text-align: center;
+}
+/* Footer SETUP END ------------------------------------*/

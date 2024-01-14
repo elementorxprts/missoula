@@ -1,0 +1,328 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .h_top p {
+        font-size: 10px;
+        }
+    .header_bottom img {
+        width: 210px;
+    }
+    .header_bottom img {
+        width: 250px;
+    }
+    .Banner_right_part2 {
+        margin-left: -23px;
+    }
+    .Banner_left h1 {
+        font-size: 28px;
+        margin: 25px 0;
+    }
+    .service_finder {
+        margin-top: -50px;
+    }
+    .country_voice_x1 {
+        padding-left: 0;
+        padding-bottom: 0 !important;
+    }
+    .row.country_voice_shape {
+        visibility: hidden;
+    }
+    .glad_overlay {
+        padding: 0 !important;
+    }
+    .glad_x1_1st h2 {
+        font-size: 23px;
+    }
+    .glad_x1_1st {
+        padding-right: 10px !important;
+    }
+    .glad_x1_1st p {
+        font-size: 16px;
+        padding: 0px !important;
+    }
+    .glad_x2_box_wrapper p {
+        font-size: 18px;
+    }
+    .glad_x2_box_wrapper > .icon_plus i {
+        font-size: 18px;
+    }
+    .field_notes_tstmnl_x1 i {
+        font-size: 45px;
+    }
+    .field_notes_tstmnl_x1 p {
+        font-size: 14px !important;
+    }
+    .field_notes_tstmnl_x2 img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+    .field_notes_tstmnl_x2 h2 {
+        font-size: 16px;
+    }
+    .field_notes_tstmnl_x2 p {
+        font-size: 13px;
+    }
+    .Explore_title h2 {
+        font-size: 24px;
+    }
+    .Explore_content p {
+        width: 90% !important;
+        font-size: 12px;
+    }
+    .council_top h2 {
+        font-size: 20px;
+        margin-top: -20px;
+        padding-bottom: 5px;
+    }
+    .council_bottom_content i {
+        margin-top: 30px;
+    }
+    .about_head h2 {
+        font-size: 34px;
+        margin-top: 20px;
+    }
+    .about_body {
+        margin-top: -10px;
+    }
+    .left_right_10 {
+        padding: 0;
+    }
+    .about_body> .col-xl-8, .about_body> .col-xl-4{
+        padding: 0;
+    }
+    .foot_content h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .foot_content ul {
+        padding-left: 0;
+        text-align: center;
+    }
+    .foot_content ul li a {
+        font-size: 12px;
+        color: #fff;
+        line-height: 24px;
+    }
+    .about {
+        margin: 0px !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width : 767.98px) {
+    .h_top p {
+        font-size: 10px;
+    }
+    .header_bottom img {
+        width: 250px;
+    }
+    .Banner_left h1 {
+        font-size: 28px;
+    }
+    .service_finder_img img {
+        width: 300px;
+    }
+    .service_finder_img img {
+        width: 175px;
+    }
+    .country_voice_x1 h2 {
+        font-size: 24px;
+    }
+    .country_voice_x2_box_wrapper h4 {
+        font-size: 15px;
+        color: #030303;
+        padding: 0px;
+    }
+    .country_voice_x1 {
+        padding: 10px;
+    }
+    .country_voice_shape_x1 {
+        height: 285px;
+        margin-top: -300px;
+    }
+    .glad_x2_box_wrapper p {
+        font-size: 18px;
+    }
+    .glad_x2_box_wrapper > .icon_plus i {
+        font-size: 20px;
+    }
+    .field_notes_tstmnl_x1 p {
+        font-size: 14px !important;
+    }
+    .field_notes_tstmnl_x2 img {
+        width: 40px;
+        height: 40px;
+    }
+    .field_notes_tstmnl_x2 h2 {
+        font-size: 15px;
+        margin-left: 8px !important;
+    }
+    .field_notes_tstmnl_x2 h2 {
+        font-size: 13px;
+        margin-left: 7px !important;
+    }
+    .field_notes_tstmnl_x2 p {
+        font-size: 12px;
+        margin-left: 8px !important;
+        margin-top: -10px !important;
+    }
+    .field_notes_tstmnl_x1 i {
+        font-size: 48px;
+    }
+    .Explore_title h2 {
+        font-size: 26px;
+    }
+    .Explore_content p {
+        font-size: 14px;
+    }
+    .council_top h2 {
+        font-size: 28px;
+        margin-top: -70px;
+        padding-bottom: 30px;
+    }
+    .foot_content h2 {
+        font-size: 20px;
+    }
+    .foot_content ul li a {
+        font-size: 12px;
+    }
+    .foot_content ul {
+        padding-left: 5px;
+    }
+    .Explore_content_box h2 {
+        font-size: 16px;
+    }
+    .council_top h2 {
+        font-size: 22px;
+        margin-top: -53px;
+        padding-bottom: 18px;
+    }
+    .about_head h2 {
+        font-size: 66px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width : 991.98px) {
+    .header_bottom img {
+        width: 260px;
+    }
+    .Banner_left h1 {
+        font-size: 30px;
+    }
+    .service_finder_img img {
+        width: 300px;
+    }
+    .country_voice_x2_box_wrapper h4 {
+        font-size: 15px;
+        color: #030303;
+        padding: 0px;
+    }
+    .country_voice_x1 {
+        padding: 40px;
+    }
+    .field_notes_tstmnl_x1 p {
+        font-size: 14px !important;
+    }
+    .field_notes_tstmnl_x2 img {
+        width: 40px;
+        height: 40px;
+    }
+    .field_notes_tstmnl_x2 img {
+        width: 55x;
+        height: 55px;
+    }
+    .field_notes_tstmnl_x2 h2 {
+        font-size: 15px;
+        margin-left: 8px !important;
+    }.field_notes_tstmnl_x2 h2 {
+        font-size: 17px;
+        margin-left: 8px !important;
+    }
+    .field_notes_tstmnl_x2 p {
+        font-size: 12px;
+        margin-left: 8px !important;
+        margin-top: -25px !important;
+    }
+    .field_notes_tstmnl_x1 i {
+        font-size: 48px;
+    }
+    .Explore_content_box h2 {
+        font-size: 20px;
+        margin-top: 12px;
+    }
+    .Explore_content p {
+        font-size: 14px;
+    }
+    .council_top h2 {
+        font-size: 28px;
+        margin-top: -70px;
+        padding-bottom: 30px;
+    }
+    .foot_content h2 {
+        font-size: 20px;
+    }
+    .foot_content ul li a {
+        font-size: 12px;
+    }
+    .foot_content ul {
+        padding-left: 5px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width : 1199.98px) {
+    .h_top p {
+        font-size: 14px;
+    }
+    .header_bottom img {
+        width: 300px;
+    }
+    .Banner_left h1 {
+        font-size: 38px;
+    }
+    .service_finder_img img {
+        width: 300px;
+    }
+    .country_voice_x2_box_wrapper h4 {
+        font-size: 16px;
+    }
+    .country_voice_x1 h2 {
+        font-size: 25px;
+    }
+    .glad_x2_box_wrapper p {
+        font-size: 18px;
+    }
+    .glad_x1_1st h6 {
+        font-style: 11px !important;
+    }
+    .glad_x1_1st h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .glad_x1_1st p {
+        font-size: 15px;
+    }
+    .align-items-end p {
+        font-size: 13px;
+    }
+    .glad_x1_1st a {
+        font-size: 12px;
+    }
+    .field_notes_tstmnl_x1 p {
+        font-size: 14px !important;
+    }
+    .field_notes_tstmnl_x2 h2 {
+        font-size: 17px;
+        margin-left: 8px !important;
+    }
+    .field_notes_tstmnl_x2 p {
+        font-size: 12px;
+        margin-left: 8px !important;
+        margin-top: -25px !important;
+    }
+    .council_top h2 {
+        font-size: 35px;
+        margin-top: -100px;
+    }
+}
